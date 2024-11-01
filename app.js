@@ -5,7 +5,15 @@ import cors from "cors"
 import jwt from "jsonwebtoken"
 import crypto from "node:crypto"
 
-const userCollection = []
+const userCollection =
+  [
+    {
+      id: "1",
+      username: "admin",
+      email: "admin@gmail.com",
+      password: "admin",
+    }
+  ]
 
 const app = express()
 
